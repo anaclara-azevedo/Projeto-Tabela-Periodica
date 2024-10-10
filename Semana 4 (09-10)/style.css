@@ -1,0 +1,233 @@
+
+/* Importação da Fonte Bitter do Google Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilização Universal */
+
+* {
+    box-sizing: border-box;
+    font-family: "Bitter", serif; 
+}
+
+/* Estilização do Plano de Fundo */
+
+body {
+    align-items: center;
+    background-color: cornsilk; 
+    min-height: 100vh; /* A altura mínima é 100% da altura da janela de visualização */
+}
+
+/* Estilização dos títulos h1, h2, h3, h4 e h5 */ 
+
+h1 {
+    color: hotpink;
+    font-size: 40px;
+    padding-bottom: 60px;
+    text-align: center;  
+}
+
+h2 {
+    color: hotpink;
+    font-size: 25px;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 2px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 10px;
+    margin: 1.5px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 10px;
+    margin: 1.5px;  
+    text-align: left;
+}
+
+/* Estilização dos elementos da tabela */ 
+
+td { 
+    text-align:center;
+    width: 90px;  
+}
+
+.Actinídeos {
+    background: rgba(155, 250, 155, 0.849);
+}
+
+.GasesNobres {
+    background-color: rgb(196, 196, 196);
+}
+
+.h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.h5 {
+    font-size: 9px;
+    margin: 1.5px;
+    text-align: center;
+}
+
+.Halogênios {
+    background-color: rgb(105, 158, 255);
+}
+
+.Lantanídeos {
+    background-color: rgb(248, 248, 107);
+}
+
+.MetaisAlcalinos {
+    background-color: rgb(252, 146, 225);
+}
+
+.MetaisAlcalinosTerrosos {
+    background-color: plum;
+}
+
+.MetaisBásicos {
+    background-color: rgba(255, 56, 162, 0.89);
+}
+
+.MetaisdeTransição {
+    background-color: rgba(244, 165, 96, 0.747);
+}
+
+.Não-Metais {
+    background-color: rgba(73, 204, 130, 0.897);
+}
+
+.Semimetais {
+    background-color: lightblue;
+}
+
+/* Estilização da Section íliasfam (Legenda) */ 
+ 
+div { 
+    height: 67px;
+    width: 90px;
+}
+
+.AC {  
+    background: rgba(155, 250, 155, 0.849);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.famílias {
+    align-items: center;
+    display: flex;  
+    justify-content:left;
+    padding: 20px;
+}
+
+.GN {
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.h3 {
+    align-items: center;
+    display: flex;
+    font-size: 15px;  
+    height: 67px;
+    justify-content: center;
+    width: 90px;
+}
+
+.HA { 
+    background-color: rgb(105, 158, 255);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.LA { 
+    background-color: rgb(248, 248, 107);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.legenda {
+    background-color:coral;
+    margin-right: 10px;
+}
+
+.MA {
+    background-color: rgb(252, 146, 225);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.MAT {
+    background-color: plum;
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.MB {
+    background-color: rgba(255, 56, 162, 0.89);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.MT {
+    background-color: rgba(244, 165, 96, 0.747);
+    display: flex;
+    height: 67px;
+    width: 90px;
+}
+
+.NM {
+    background-color: rgba(73, 204, 130, 0.897);
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.SM {
+    background-color: lightblue;
+    display: flex;
+    height: 67px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+/* Estilização do rodapé */ 
+
+footer {
+    color: black;
+    font-size: 20px;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Fontes utilizadas para a montagem da tabela periódica */ 
+
+/* https://pt.pngtree.com/freepng/periodic-table-of-the-elements-halogens-mendeleev-science-vector_9572690.html*/ 
+
+/* https://www.flickr.com/photos/emsintese/29404206180 */ 
+
